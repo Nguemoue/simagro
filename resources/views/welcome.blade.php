@@ -8,30 +8,33 @@
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">A propos </h5>
-                        <h1 class="mb-0">Solutions Informatiques sur Mesure et Innovantes</h1>
+                        <h1 class="mb-0">Solutions Agricole sur Mesure et Innovantes</h1>
                     </div>
                     <p class="mb-4">
-                        Depuis sa création, GoulBAM Enterprises s’est imposée comme acteur clé dans
-                        le monde de la technologie en fournissant des solutions informatiques de
-                        pointe. Avec des années d'expertise et des projets réussis dans divers secteurs,
-                        nous rendons la technologie accessible et performante. Grâce à une équipe
-                        internationale et un modèle de travail innovant, nous créons des solutions
-                        personnalisées adaptées à vos besoins spécifiques.
+                        {{-- description pour la solution agricole--}}
+                        Êtes-vous un exploitant agricole cherchant à optimiser votre production, à améliorer la gestion
+                        de
+                        votre ferme et à vous connecter avec votre marché ? Ou peut-être êtes-vous à la recherchede
+                        solutions
+                        informatiques pour automatiser vos processus et améliorer l'efficacité de votre entreprise ?
+                        Quelle
+                        que soit votre activité, nous pouvons vous aider.
                     </p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Développement web</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Développement mobile</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Gestion de la chaîne
+                                d’approvisionnement</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Gestion des recoltes  </h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Formation</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Marketing digitale</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Suivis des cultures  </h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Guide d'utilisation des intrants </h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.5s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Conception Architecturale</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Conception </h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.5s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>SEO</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Realisations de vos projets</h5>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
@@ -49,7 +52,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
+                        <img alt="dede" class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
                              src="{{asset('assets/img/about.jpg')}}" style="object-fit: cover;">
                     </div>
                 </div>
@@ -90,7 +93,7 @@
                 </div>
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                        <img alt="dede" class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
                              src="{{asset('assets/img/feature.jpg')}}" style="object-fit: cover;">
                     </div>
                 </div>
@@ -169,7 +172,7 @@
                         </div>
                     </div>
                     <p class="mb-4">
-                        Obtenez dès maintenant votre devis gratuit avec GoulBAM Enterprises !
+                        Obtenez dès maintenant votre devis gratuit avec Simagro Sarl !
                         Nous vous proposons des solutions informatiques sur mesure, adaptées à
                         vos besoins spécifiques. Avec des tarifs compétitifs et abordables, notre
                         équipe d'experts vous garantit un service de qualité pour concrétiser vos

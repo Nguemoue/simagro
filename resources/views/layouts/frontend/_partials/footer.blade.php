@@ -85,7 +85,7 @@
         <div class="row justify-content-end">
             <div class="col-lg-8 col-md-6">
                 <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                    <p class="mb-0">&copy; {{date('Y')}} <a class="text-white border-bottom" href="{{config('projects.footer.startup_link')}}">GoulBAM</a>. All Rights Reserved.
+                    <p class="mb-0">&copy; {{date('Y')}} <a class="text-white border-bottom" href="{{config('projects.footer.startup_link')}}">Simagro</a>. All Rights Reserved.
                 </div>
             </div>
         </div>

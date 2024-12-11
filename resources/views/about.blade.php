@@ -7,10 +7,10 @@
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">A propos </h5>
-                        <h1 class="mb-0">GoulBAM Enterprises: Solutions Informatiques sur Mesure et Innovantes</h1>
+                        <h1 class="mb-0">{{config('app.name')}} Enterprises: Solutions Informatiques sur Mesure et Innovantes</h1>
                     </div>
                     <p class="mb-4">
-                        Depuis sa création, GoulBAM Enterprises s’est imposée comme acteur clé dans
+                        Depuis sa création, {{config('app.name')}} Enterprises s’est imposée comme acteur clé dans
                         le monde de la technologie en fournissant des solutions informatiques de
                         pointe. Avec des années d'expertise et des projets réussis dans divers secteurs,
                         nous rendons la technologie accessible et performante. Grâce à une équipe
@@ -18,20 +18,12 @@
                         personnalisées adaptées à vos besoins spécifiques.
                     </p>
                     <div class="row g-0 mb-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Développement web</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Développement mobile</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Formation</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i> Marketing digitale</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.5s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Conception Architecturale</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.5s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>SEO</h5>
-                        </div>
+                        @foreach(config('projects.services') as $key => $service)
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="{{(($key%$loop->count)/10)+0.2}}s">
+                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>{!!  $service['title'] !!}</h5>
+                            </div>
+                        @endforeach
+
                     </div>
                     <div class="d-flex align-items-center mt-4">
                         <a class="btn btn-primary rounded-pill px-4 me-3" href="{{asset('assets/goulbam_story.pdf')}}" target="_blank">Telecharger</a>
@@ -43,7 +35,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
+                        <img alt="about" class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
                              src="{{asset('assets/img/about.jpg')}}" style="object-fit: cover;">
                     </div>
                 </div>
@@ -69,7 +61,7 @@
                     </form>
                 </div>
                 <div class="col-md-6 text-center mb-n5 d-none d-md-block">
-                    <img class="img-fluid mt-5" style="height: 250px;" src="{{asset('assets/img/newsletter.png')}}">
+                    <img alt="ss" class="img-fluid mt-5" style="height: 250px;" src="{{asset('assets/img/newsletter.png')}}">
                 </div>
             </div>
         </div>
