@@ -26,7 +26,7 @@
 
                     </div>
                     <div class="d-flex align-items-center mt-4">
-                        <a class="btn btn-primary rounded-pill px-4 me-3" href="{{asset('assets/goulbam_story.pdf')}}" target="_blank">Telecharger</a>
+                        <a class="btn btn-primary rounded-pill px-4 me-3" href="{{asset('assets/company_story.pdf')}}" target="_blank">Telecharger</a>
                         <a class="btn btn-outline-primary btn-square me-3" target="_blank" href="{{config('projects.top_bar_details.facebook_link')}}"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3" target="_blank" href="{{config('projects.top_bar_details.twitter_link')}}"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3" target="_blank" href="{{config('projects.top_bar_details.instagram_link')}}"><i class="fab fa-instagram"></i></a>

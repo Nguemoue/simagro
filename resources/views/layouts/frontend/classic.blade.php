@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>{{config('app.name')}}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="goulbam, Goulbam, GoulBAM, web development, mobile app development, SEO optimization, digital marketing, IT training, data analysis, architectural design, affordable IT solutions, GoulBAM Enterprises, remote IT services, Cameroon IT company, Belgium IT services, Madagascar IT professionals, custom software development, innovative IT solutions, développement web, développement d'applications mobiles, optimisation SEO, marketing digital, formation en informatique, analyse de données, conception architecturale, solutions informatiques abordables, GoulBAM Enterprises, services informatiques à distance, entreprise informatique Cameroun, services informatiques Belgique, professionnels informatiques Madagascar, développement de logiciels sur mesure, solutions informatiques innovantes" name="keywords">
-    <meta content="GoulBAM Enterprises propose des solutions informatiques innovantes et abordables, incluant le développement web, les applications mobiles, l'optimisation SEO, le marketing digital, l'analyse de données et des formations en informatique. Nous offrons des services sur mesure à l'échelle mondiale avec une équipe professionnelle au Cameroun, en Belgique et à Madagascar. Votre partenaire dans la transformation numérique !" name="description">
+    <meta content="{{config('app.name')}},  Realisations de vos projets agricoles" name="keywords">
+    <meta content="{{config('app.name')}} Realise vos projets agricoles" name="description">
 
     <!-- Favicon -->
     <link href="{{asset('logo.png')}}" rel="icon">
@@ -64,7 +64,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Créatif & innovant</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">GoulBAM Enterprises Digital
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">{{config('app.name')}} Enterprises Digital
                                 Solution</h1>
                             <a href="#aboutUs" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Allons Y</a>
                             <a href="{{route('services')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nos Services</a>
